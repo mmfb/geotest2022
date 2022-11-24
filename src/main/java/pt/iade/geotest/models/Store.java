@@ -7,6 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity 
 @Table(name="lojas")
@@ -26,7 +27,8 @@ public class Store {
     public String getName() {
         return name;
     }
-    @JsonIgnore
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    //@JsonIgnore
     public int getIdLocal() {
         return idLocal;
     }
