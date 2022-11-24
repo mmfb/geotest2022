@@ -26,6 +26,11 @@ insert into locais (loc_name, loc_local) values('Campus IADE',Point(38.707376, -
 insert into locais (loc_name, loc_local) values('Campus LISPOLIS ',Point(38.76510967886296, -9.183523888005144));
 insert into locais (loc_name, loc_local) values('Campus QBN',Point(38.76032217024187, -9.193538077714317));
 
+insert into lojas(loj_name, loj_loc_id) values ('Papelaria IADE',1);
+insert into lojas(loj_name, loj_loc_id) values ('Cafetaria IADE',1);
+insert into lojas(loj_name, loj_loc_id) values ('Cafetaria QBN',3);
+insert into lojas(loj_name, loj_loc_id) values ('Cafetaria LISPOLIS',2);
+
 
 
 
